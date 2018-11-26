@@ -41,4 +41,18 @@ public class SkyView {
         }
         return (sum/num);
     }
+
+    public String toString()
+    {
+        String output = "";
+        for(int i = 0; i < view.length; i++)
+        {
+            for(int j = 0; j < view[i].length; j++)
+            {
+                output += view[i][j] + " ";
+            }
+            output += "\n";
+        }
+        return output;
+    }
 }
