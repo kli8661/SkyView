@@ -4,7 +4,8 @@ public class SkyView {
 
     public SkyView(int rows, int col, double[] scanned)
     {
-        int a = 0; int b = 0;
+        int a = 0;
+        int b = 0;
         this.view = new double[rows][col];
         for(int i = 0; i < rows; i++)
         {
