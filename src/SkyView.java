@@ -8,9 +8,9 @@ public class SkyView {
         this.view = new double[rows][col];
         for(int i = 0; i < rows; i++)
         {
-            if(a == col - 1)
+            if(a == col)
             {
-                for(a = col - 1; a >= 0; a--)
+                for(a = (col - 1); a >= 0; a--)
                 {
                     view[i][a] = scanned[b];
                     b++;
@@ -18,7 +18,7 @@ public class SkyView {
             }
             else if(a == 0)
             {
-                for(a = 0; a <= col - 1; a++)
+                for(a = 0; a < col; a++)
                 {
                     view[i][a] = scanned[b];
                     b++;
