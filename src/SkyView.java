@@ -18,7 +18,7 @@ public class SkyView {
             }
             else if(a == 0)
             {
-                for(a = 0; a < col; a++)
+                for(a = 0; a <= (col - 1); a++)
                 {
                     view[i][a] = scanned[b];
                     b++;
